@@ -1,0 +1,68 @@
+.pagination {
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.page-link {
+  border-radius: 6px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+.page-item.active .page-link {
+  background-color: #343a40;
+  color: #fff;
+  border-color: #343a40;
+}
+.page-link:hover {
+  background-color: #212529;
+  color: #fff;
+}
+
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+  transform: scale(1.05);
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  position: relative;
+
+}
+
+.navbar .nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: #0d6efd;
+}
+
+.navbar-brand i {
+  font-size: 1.2rem;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 0.75rem;
+}
+.carousel-item img {
+  height: 75vh;
+  object-fit: cover;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #0d6efd;
+}
+
+footer i {
+  font-size: 1.2rem;
+}
+
