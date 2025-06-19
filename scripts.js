@@ -13,9 +13,9 @@ function renderCard(product) {
     return `
     <div class="col mb-5">
         <div class="card h-100">
-            <a href="" target="_blank">
-                <img class="card-img-top" src="${product["img-fluid src"]}" alt="${product["product-details"]}" />
-            </a>
+          <a href="${product["img-fluid src"]}" target="_blank">
+              <img class="card-img-top" src="${product["img-fluid src"]}" alt="${product["product-details"]}" />
+          </a>
             <div class="card-body p-4">
                 <div class="text-center">
                     <h5 class="fw-bolder">${product["product-details"]}</h5>
@@ -24,9 +24,9 @@ function renderCard(product) {
                 </div>
             </div>
             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                <div class="text-center">
-                    <a class="btn btn-outline-dark mt-auto" href="" target="_blank">${product["btn"]}</a>
-                </div>
+                // <div class="text-center">
+                //     <a class="btn btn-outline-dark mt-auto" href="" target="_blank">${product["btn"]}</a>
+                // </div>
             </div>
         </div>
     </div>`;
