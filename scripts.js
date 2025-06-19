@@ -13,7 +13,7 @@ function renderCard(product) {
     return `
     <div class="col mb-5">
         <div class="card h-100">
-            <a href="${product["product-img-block href"]}" target="_blank">
+            <a href="" target="_blank">
                 <img class="card-img-top" src="${product["img-fluid src"]}" alt="${product["product-details"]}" />
             </a>
             <div class="card-body p-4">
